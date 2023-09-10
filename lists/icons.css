@@ -1,0 +1,45 @@
+body {
+  padding: 4rem;
+}
+.code {
+  margin-top: 10rem;
+  background-color: #343434;
+  color: #ffffff;
+  border-left: 4px solid hsl(120, 99%, 35%);
+  padding-left: 10px;
+  min-width: 25rem;
+  max-width: 50%;
+}
+.navbar {
+  background-color: #d76fff;
+  border: 6px solid #5d00a2;
+  padding-right: 2rem;
+  min-width: 11rem;
+  max-width: 15rem;
+}
+.navbar a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.navbar li {
+  height: 1.5rem;
+  padding: 0.2rem;
+}
+.navbar li:hover {
+  background-color: #887b8b;
+  border-radius: 0.3rem;
+  color: black;
+  cursor: pointer;
+}
+.navlist {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
+}
+.navlist i {
+  display: inline-flex;
+  margin-right: 5px;
+  color: white;
+}

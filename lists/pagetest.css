@@ -1,0 +1,70 @@
+body {
+  background-color: bisque;
+  margin: 0;
+}
+.flexbox1 {
+  display: flex;
+  flex-direction: row;
+}
+.top_container {
+  color: white;
+  background-color: hsl(225, 100%, 65%);
+  border: solid 8px blue;
+}
+.top_container h1 {
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+  font-family: monospace;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 8px solid hsl(6, 100%, 70%);
+  background-color: hsl(6, 50%, 50%);
+  color: white;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+.sidebar a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+.sidebar p {
+  margin: 2px;
+}
+.sidebar p:hover {
+  cursor: pointer;
+  background-color: hsl(6, 100%, 70%);
+}
+.right_container {
+  color: rgb(43, 43, 43);
+  padding: 10px;
+  background-color: hsl(125, 100%, 35%);
+  border: 8px solid hsl(125, 100%, 50%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
+footer {
+  background-color: rgb(119, 119, 119);
+  border: 8px solid rgb(0, 0, 0);
+  color: white;
+  padding: 0.5rem;
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+@media (max-width: 800px) {
+  .flexbox1 {
+    flex-direction: column;
+  }
+  .sidebar {
+    max-height: 10rem;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .sidebar p {
+    padding-top: 1.5rem;
+  }
+}

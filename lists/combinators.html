@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="combinators.css">
+</head>
+<body>
+
+
+    <h1>combinators</h1>
+    <div id="table">
+        <table>
+            <tr>
+                <th>Selector</th>
+                <th>Example</th>
+                <th>Example description</th>
+            </tr>
+            <tr class="bg1">
+                <td><u>element element</u></td>
+                <td class="border">div p</td>
+                <td>Selects all p elements inside div elements</td>
+            </tr>
+            <tr>
+                <td><u>element>element</u></td>
+                <td class="border">div > p</td>
+                <td>Selects all p elements where parent is a div</td>
+            </tr>
+            <tr class=bg1>
+                <td><u>element+element</u></td>
+                <td class="border">div + p</td>
+                <td>Selects the first p element that are placed immediately after div elements</td>
+            </tr>
+            <tr>
+                <td><u>element1~element2</u></td>
+                <td class="border">p ~ ul</td>
+                <td>Selects every ul element that are preceded by p</td>
+            </tr>
+        </table>
+    </div><hr>
+
+    <div id="content">
+        <h2>div example1</h2>
+    <p>element element</p>
+    <div class="example" id="example1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam voluptas tenetur quas! Nisi, corporis iste eos dicta quo libero debitis dolore dolores voluptatibus dolorum? Magni recusandae laborum saepe ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil voluptatibus veritatis natus eius ea ratione eum illo, ipsum ab nobis, ex sit totam iure officia culpa magni reprehenderit nisi incidunt.</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque odit non molestiae repudiandae possimus cupiditate nisi facilis reprehenderit laborum mollitia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur harum sequi totam, provident esse quibusdam officia? Nemo vel alias iste?</p>
+        </div>
+    </div>
+
+    <h2>div example2</h2>
+    <p>element>element</p>
+    <div class="example" id="example2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam voluptas tenetur quas! Nisi, corporis iste eos dicta quo libero debitis dolore dolores voluptatibus dolorum? Magni recusandae laborum saepe ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil voluptatibus veritatis natus eius ea ratione eum illo, ipsum ab nobis, ex sit totam iure officia culpa magni reprehenderit nisi incidunt.</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque odit non molestiae repudiandae possimus cupiditate nisi facilis reprehenderit laborum mollitia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur harum sequi totam, provident esse quibusdam officia? Nemo vel alias iste?</p>
+        </div>
+    </div>
+
+    <h2>div example3</h2>
+    <p>element+element</p>
+    <div class="example" id="example3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam voluptas tenetur quas! Nisi, corporis iste eos dicta quo libero debitis dolore dolores voluptatibus dolorum? Magni recusandae laborum saepe ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil voluptatibus veritatis natus eius ea ratione eum illo, ipsum ab nobis, ex sit totam iure officia culpa magni reprehenderit nisi incidunt.</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque odit non molestiae repudiandae possimus cupiditate nisi facilis reprehenderit laborum mollitia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur harum sequi totam, provident esse quibusdam officia? Nemo vel alias iste?</p>
+        </div>
+    </div>
+    <p>This text is outside div example3 but but beacause of <u>element+element</u> it is selected</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dignissimos eius itaque dolorem culpa id reprehenderit cumque sit perspiciatis, molestiae enim eligendi laboriosam quidem voluptas nisi quaerat consequuntur sunt praesentium.</p>
+    
+    </div>
+
+</body>
+</html>

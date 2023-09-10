@@ -1,0 +1,29 @@
+pre{
+    background-color: #343434;
+    color: #ffffff;
+    border-left: 4px solid hsl(120, 99%, 35%);
+}
+
+div{
+    margin-bottom: 80px;
+    border: 2px solid;
+    height: 80px;
+}
+
+#div1{
+    overflow: hidden;
+}
+
+#div2{
+    overflow: clip;
+    overflow-clip-margin: 13px;
+}
+
+#div3{
+    overflow: clip;
+    overflow: scroll;
+}
+
+#div4{
+    overflow: auto;
+}

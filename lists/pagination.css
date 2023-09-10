@@ -1,0 +1,32 @@
+#code{
+    background-color: #343434;
+    color: #ffffff;
+    border-left: 4px solid hsl(120, 99%, 35%);
+    padding-left: 10px;
+}
+
+.content{
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+p{
+    text-align: justify;
+}
+
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: blueviolet;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(21, 203, 4);
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(186, 184, 184);
+}

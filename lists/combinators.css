@@ -1,0 +1,46 @@
+#table{
+    margin: 2rem;
+    border: 2px solid;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40rem;
+}
+
+#content{
+    padding: 6rem;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.bg1{
+    background-color: gainsboro;
+}
+
+.border{
+    border: 1px solid;
+}
+
+.example{
+    background-color: beige;
+    margin: 20px;
+    border: 1px solid;
+    padding: 1em;
+}
+
+/*COMBINATORS*/
+
+#example1 p{
+    background-color: violet;
+}
+
+#example2 > p{
+    background-color: violet;
+}
+
+#example3 + p{
+    background-color: violet;
+}
+

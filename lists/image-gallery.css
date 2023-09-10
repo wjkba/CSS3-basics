@@ -1,0 +1,39 @@
+.code {
+  margin-top: 10rem;
+  background-color: #343434;
+  color: #ffffff;
+  border-left: 4px solid hsl(120, 99%, 35%);
+  padding-left: 10px;
+  width: 40rem;
+}
+
+body {
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.gallery {
+  display: inline-block;
+  background-color: #f437a5;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  width: 200px;
+  cursor: pointer;
+}
+.gallery .description {
+  font-size: 1.2rem;
+  font-family: monospace;
+  color: white;
+  padding-left: 15px;
+}
+.gallery:hover {
+  background-color: #434343;
+}
+.gallery img {
+  width: 100%;
+  height: auto; /* it's auto by default */
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown-menus</title>
+    <link rel="stylesheet" href="dropdown-menus.css">
+</head>
+<body>
+    
+    <div class="content">
+        <div id="box1">
+            <h1>dropdown-menus</h1><hr>
+            <div class="dropdown">
+                <button>open dropdown</button>
+                <div class="dropdown_content">
+                    <a href="">option1</a>
+                    <a href="">option2</a>
+                    <a href="">option3</a>
+                </div>
+            </div>
+<pre id="code">.dropdown{
+display: inline-block;
+}
+
+.dropdown button{
+height: 2.5rem;
+width: 10rem;
+font-size: 1.1rem;
+background-color: bisque;
+border: 3px solid;
+cursor: pointer;
+}
+.dropdown button:hover{
+background-color: rgb(138, 184, 11);
+}
+.dropdown a{
+padding: 4px 4px;
+display: block;
+font-size: 1.5rem;
+text-decoration: none;
+color: black;
+}
+.dropdown a:hover{
+background-color: hsl(43, 92%, 53%);
+}
+.dropdown_content{
+display: none;
+background-color: antiquewhite;
+position: absolute;
+min-width: 8rem;
+border: 1.5px solid;
+border-top: none;
+}
+.dropdown:hover .dropdown_content{
+display: block;
+}</pre>
+        <div class="wrap"><img id="code_img" src="https://i.imgur.com/e8pW5pq.png"></div>
+        </div>
+    </div>
+
+</body>
+</html>

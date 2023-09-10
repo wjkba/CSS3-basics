@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>basic animations</title>
+    <link rel="stylesheet" href="animations.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>basic animations</h1>
+        <button onClick="window.location.reload();">Refresh Page</button>
+      </header>
+      <p>
+        <b>animation-name:</b> Specifies the name of the animation defined using
+        @keyframes. It associates an element with the animation sequence.
+      </p>
+      <p>
+        <b>animation-duration:</b> Sets the time it takes for an animation to
+        complete one cycle, measured in seconds or milliseconds.
+      </p>
+      <p>
+        <b>animation-timing-function:</b> Determines the pace of an animation by
+        defining the acceleration curve. Options include "linear," "ease,"
+        "ease-in," "ease-out," and more.
+      </p>
+      <p>
+        <b>animation-delay:</b> Establishes a delay before the animation starts,
+        in seconds or milliseconds.
+      </p>
+      <p>
+        <b>animation-iteration-count:</b> Sets how many times the animation
+        should repeat. Use values like a number, "infinite," or "alternate" for
+        back-and-forth motion.
+      </p>
+      <p>
+        <b>animation-direction:</b> Specifies whether an animation plays
+        forwards, backwards, or alternates between the two.
+      </p>
+      <p>
+        <b>animation-fill-mode:</b> Determines how an element should be styled
+        before and after an animation. Options include "forwards," "backwards,"
+        "both," and "none."
+      </p>
+      <p>
+        <b>animation-play-state:</b> Controls whether an animation is running or
+        paused. Use "running" or "paused" to start or halt the animation.
+      </p>
+      <pre class="code">
+#boxID{
+  animation-name: ANIM-NAME; 
+  animation-duration: 10s; 
+}
+      </pre>
+      <br /><br />
+      <div class="flex1">
+        <div class="left-container">
+          <pre class="code">
+@keyframes slideLeft {
+from {
+transform: translateX(100px);
+}
+}</pre
+          >
+          <div class="box" id="box1">slide left</div>
+          <pre class="code">
+@keyframes slideRight {
+  to {
+    transform: translateX(200%);
+  }
+}</pre
+          >
+          <div class="box" id="box2">slide right</div>
+          <pre class="code">
+@keyframes rotate {
+  100% {
+    transform: rotateY(360deg);
+  }
+}</pre
+          >
+          <div class="box" id="box3">rotate</div>
+          <pre class="code">
+@keyframes fade {
+  50% {
+    opacity: 0;
+  }
+}</pre
+          >
+          <div class="box" id="box4">fade</div>
+        </div>
+        <div class="right-container">
+          <pre class="code">
+@keyframes slideUp {
+  from {
+    transform: translateY(300px);
+  }
+}</pre
+          >
+          <div class="box" id="box11">slide up</div>
+          <div class="space"></div>
+          <div class="box_blank">x</div>
+          <pre class="code">
+@keyframes shrink {
+  100% {
+    transform: scale(0.5, 0.5);
+  }
+}</pre
+          >
+          <div class="box" id="box33">shrink</div>
+          <pre class="code">
+@keyframes colorChange {
+  0% {
+    background-color: #ff0000;
+  }
+  25% {
+    background-color: rgb(255, 111, 0);
+  }
+  50% {
+    background-color: rgb(255, 251, 0);
+  }
+  75% {
+    background-color: rgb(47, 255, 0);
+  }
+  100% {
+    background-color: rgb(0, 174, 255);
+  }</pre
+          >
+          <div class="box" id="box44">color change</div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

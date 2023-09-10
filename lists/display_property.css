@@ -1,0 +1,52 @@
+
+.divspan{
+    border: 4px solid;
+    margin-bottom: 40px;
+}
+
+#div1{
+    background-color: firebrick;
+    font-size: 72px;
+}
+#span1{
+    background-color: dodgerblue;
+    font-size: 72px;
+}
+
+#div2{
+    background-color: firebrick;
+    font-size: 72px;
+    display: block;
+}
+#span2{
+    background-color: dodgerblue;
+    font-size: 72px;
+    display: block;
+}
+
+#div3{
+    background-color: firebrick;
+    height: 40px;
+    display: inline;
+}
+#span3{
+    background-color: dodgerblue;
+    height: 40px;
+    display: inline;
+}
+
+#div4{
+    background-color: firebrick;
+    height: 80px;
+    display: inline-block;
+}
+#span4{
+    background-color: dodgerblue;
+    height: 40px;
+    display: inline-block;
+}
+
+/* 
+    display: none;  /ERASES ELEMENT
+    visibility: hidden; /INVISIBILITY
+*/

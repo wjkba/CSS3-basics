@@ -1,0 +1,86 @@
+.code {
+  background-color: #343434;
+  color: #ffffff;
+  border-left: 4px solid hsl(120, 99%, 35%);
+  padding-left: 10px;
+}
+
+main {
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+p {
+  text-align: justify;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  font-size: 8em;
+  text-align: center;
+  border-radius: 1rem;
+}
+#box1 {
+  background-color: hsl(0, 100%, 65%);
+}
+#box2 {
+  background-color: hsl(62, 100%, 65%);
+}
+#box3 {
+  background-color: hsl(130, 100%, 65%);
+}
+#box4 {
+  background-color: hsl(215, 100%, 65%);
+}
+#box5 {
+  background-color: hsl(240, 100%, 65%);
+}
+#box6 {
+  background-color: hsl(190, 74%, 31%);
+}
+#box7 {
+  background-color: hsl(299, 67%, 34%);
+}
+#box8 {
+  background-color: hsl(0, 100%, 50%);
+}
+
+.container1 {
+  display: flex;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container5 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 4rem;
+  row-gap: 2rem;
+}
+.container6 {
+  display: flex;
+  height: 800px;
+  width: 600px;
+  border: 8px solid;
+}
+#box22 {
+  background-color: hsl(62, 100%, 65%);
+  align-self: center;
+}
+#box33 {
+  background-color: hsl(240, 100%, 65%);
+  align-self: end;
+}
+#box44 {
+  background-color: hsl(190, 74%, 31%);
+}

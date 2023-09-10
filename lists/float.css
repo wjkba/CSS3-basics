@@ -1,0 +1,15 @@
+body{
+    border: 3px solid;
+    border-width: 6px;
+}
+#img1{
+    height: 120px;
+    float: right;
+    display: flow-root;
+}
+#img2{
+    height: 150px;
+    float: left;
+    display: flow-root;
+
+}

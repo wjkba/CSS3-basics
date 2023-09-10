@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <link rel="stylesheet" href="pseudo-classes.css">
+</head>
+<body>
+    <h1>pseudo-classes</h1><hr>
+    <div class="content">
+        <h3>button:hover, button:action</h3>
+        <pre id="code">background-color: #343434;
+        color: #ffffff;
+        border-left: 4px solid hsl(120, 99%, 35%);
+        </pre>
+        <div class="button">
+            click
+        </div>
+        <h3>list hover</h3>
+        <pre id="code">
+        li{
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        li:hover{
+            background-color: hsl(0, 0%, 40%);
+        }
+
+        li:not(:hover){
+            background-color: rgb(4, 255, 21);
+        }</pre>
+        <ul>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eum?</li>
+        </ul>
+    </div>
+
+</body>
+</html>

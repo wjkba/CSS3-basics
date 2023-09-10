@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elements</title>
+    <link rel="stylesheet" href="pseudo-elements.css">
+</head>
+<body>
+    
+    <div class="content">
+        <div id="box1">
+            <h1>pseudo-elements</h1>
+            <pre id="code">p::selection{
+            background-color: #343434;
+            color: hsl(120, 99%, 35%);
+            }
+            </pre>
+            <pre id="code">#p1::first-letter{
+            font-size: 2rem;
+            font-style: italic;
+            background-color: rgb(59, 170, 8);
+            }</pre>
+            
+            <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptates.</p><br>
+
+            <pre id="code">#p2::first-line{
+            font-style: italic;
+            background-color: rgb(8, 116, 170);
+            }</pre>
+            <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate, officiis deleniti explicabo perferendis porro veritatis cum. Non excepturi alias sed reprehenderit voluptatem quia officiis, suscipit nisi quasi quibusdam cumque.</p><br>
+            
+            <pre id="code">#list1 li::before{
+            content: "🍅";
+            }</pre>
+            <pre id="code">#list1 li::after{
+            content: "🍏";
+            }</pre>
+            <ul id="list1">
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+
+        </div>
+    </div>
+
+</body>
+</html>

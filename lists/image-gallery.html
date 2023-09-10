@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image-gallery</title>
+    <link rel="stylesheet" href="image-gallery.css" />
+  </head>
+  <body>
+    <h1>image-gallery</h1>
+    <div class="gallery">
+      <a target="_blank" href="images/pic1.jpg">
+        <img src="images/pic1.jpg" />
+      </a>
+      <div class="description">image #1</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="images/pic2.jpg">
+        <img src="images/pic2.jpg" />
+      </a>
+      <div class="description">image #2</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="images/pic3.jpeg">
+        <img src="images/pic3.jpeg" />
+      </a>
+      <div class="description">image #3</div>
+    </div>
+
+    <div class="code">
+      <pre>
+.gallery {
+display: inline-block;
+background-color: #f437a5;
+padding: 0.2rem;
+margin: 0.2rem;
+width: 200px;
+cursor: pointer;
+}
+.gallery .description {
+font-size: 1.2rem;
+font-family: monospace;
+color: white;
+padding-left: 15px;
+}
+.gallery:hover {
+background-color: #434343;
+}
+.gallery img {
+width: 100%;
+height: auto; /* it's auto by default */
+}</pre
+      >
+    </div>
+  </body>
+</html>

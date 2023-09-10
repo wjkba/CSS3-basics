@@ -1,0 +1,43 @@
+#code{
+    background-color: #343434;
+    color: #ffffff;
+    border-left: 4px solid hsl(120, 99%, 35%);
+}
+h1{
+    margin: 0px;
+    padding: 40px;
+    background-color: white;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/1155052.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    max-width: 90%;
+    text-align: justify;
+    padding: 16px;
+    /* center  */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container1{
+    background-image: url(https://eol.jsc.nasa.gov/DatabaseImages/EFS/lowres/STS039/STS039-151-7.jpg);
+    background-repeat: no-repeat;
+    padding: 400px;
+    max-width: 50%;
+    /* center  */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}

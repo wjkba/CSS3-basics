@@ -1,0 +1,30 @@
+@font-face{
+    src: url(fonts/Handjet-Regular.ttf);
+    font-family: Handjet-Regular;
+}
+
+#pre{
+    background-color: rgb(50, 35, 115);
+    color: crimson;
+    font-size:larger
+}
+
+#p1{
+    background-color: cornflowerblue;
+}
+
+#font1{
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; 
+    font-size: 26px;
+}
+
+#font2{
+    font-family: Raleway;
+    font-size: 30px;
+}
+
+#font3{
+    font-family: Handjet-Regular;
+    font-size: 28px;
+}
+

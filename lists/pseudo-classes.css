@@ -1,0 +1,47 @@
+.content{
+    padding: 2rem;
+}
+
+#code{
+    background-color: #343434;
+    color: #ffffff;
+    border-left: 4px solid hsl(120, 99%, 35%);
+    padding-left: 10px;
+}
+
+.button{
+    background-color: #61677A;  
+    color: #FFF6E0;  
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    max-width: 5ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.button:hover{
+    background-color: #272829;    
+}
+
+.button:active{
+    background-color: rgb(78, 78, 78);
+    font-size: 1.9em;
+}
+
+li{
+    font-size: 1.2rem;
+    cursor: pointer;
+    user-select: none;
+}
+li:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+li:not(:hover){
+    background-color: rgb(4, 255, 21);
+}
